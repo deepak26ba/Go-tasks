@@ -1,0 +1,9 @@
+Do the following using GORM
+C - Create two tables [ users ( rollnumber, name, dob, address ), user_roles ( role_id, role, permission ), user_role_mapping (id (PK), rollnumber (FK), role_id (FK)) ]
+    Insert the below into user_roles where user_roles is an asset table
+    1, 'Admin', 'read/write'
+    2, 'Staff', 'read'
+    3, 'Maintenance', 'read/write'
+R - Read user data from users ( select all and select by ID )
+U - Update user details by primary key
+D - Delete an user by primary key
